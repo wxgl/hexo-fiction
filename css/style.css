@@ -1391,6 +1391,10 @@ body {
   font-family: 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', Sans-serif, Serif;
   color: #1f1235;
   position: relative;
+  -webkit-user-select: none /* Safari */;
+  -ms-user-select: none /* IE 10+ and Edge */;
+  -moz-user-select: none /* Firefox */;
+  user-select: none /* Standard syntax */;
 }
 body .main {
   max-width: 1080px;
